@@ -1,6 +1,6 @@
 // WS
 
-var wsurl = 'wss://keyserver.nwl.im';
+var wsurl = 'wss://keyserver.nwl.im:2001';
 var json;
 if ($.cookie('ws_dis') == null) {
     $.cookie('ws_dis', '0', { expires: 365000, path: '/' });
